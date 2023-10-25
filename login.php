@@ -40,13 +40,18 @@ header("location:index.php?page=home");
 	#login-right .card{
 		margin: auto
 	}
+	body{
+		background: url('./assets/img/a-school-building-vector.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+	}
 </style>
 
 <body>
 
 
   <main id="main" class="login alert-info">
-
   		<div id="login-right">
 				<div class="col-md-12 text-center">
 					<h4><strong>Educational Center Enrollment System - Login</strong></h4>
@@ -68,9 +73,7 @@ header("location:index.php?page=home");
   					</form>
   				</div>
   			</div>
-  		</div>
-   
-
+  		</div>   
   </main>
 
   <div id="preloader"></div>
