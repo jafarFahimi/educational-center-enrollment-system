@@ -86,7 +86,7 @@ CREATE TABLE `last_school` (
 --
 
 INSERT INTO `last_school` (`id`, `last_school`, `last_address`, `enrollment_id`) VALUES
-(1, 'Sample Course', 'Sample Course address', 2);
+(1, 'Jafar Fahimi Course', 'Kabul, Dehbouri', 2);
 
 -- --------------------------------------------------------
 
@@ -155,7 +155,7 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `name`, `address`, `img_path`, `date_updated`) VALUES
-(1, 'Sample School', 'Sample School address', '1599802140_no-image-available.png', '2020-09-11 13:29:35');
+(1, 'Jafar Fahimi Course', 'Kabul Dehbouri', '1599802140_no-image-available.png', '2020-09-11 13:29:35');
 
 -- --------------------------------------------------------
 
